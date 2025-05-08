@@ -4,7 +4,7 @@ package modelo;
  *
  * @author HP RYZEN 3
  */
-public class Usuario {
+public class Usuario { 
 
     //Atributos
     private int idUsuario;

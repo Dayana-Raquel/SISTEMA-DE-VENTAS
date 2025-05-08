@@ -15,6 +15,13 @@ telefono varchar(15) not null,
 estado int(1) not null
 );
 
+INSERT INTO tb_usuario(nombre, apellido, usuario, password, telefono, estado)
+VALUES("Dayana", "Bazualdo", "dayana", "12345", "8543296","1");
+
+SELECT * FROM tb_usuario WHERE usuario = 'dayana' AND password = '12345';
+SELECT 1;
+
+SELECT * FROM tb_usuario;
 
 -- crear tabla cliente
 CREATE TABLE tb_cliente(
@@ -74,5 +81,3 @@ estado int(1) not null
 );
 
 show tables;
-
-SELECT * FROM tb_usuario;
